@@ -294,3 +294,4 @@ To connect your free Google Gemini API key:
 
 ## 📜 License
 MIT License. Created for Computer Science & Engineering students worldwide.
+

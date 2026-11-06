@@ -271,3 +271,4 @@ exports.submitVerification = async (req, res) => {
         res.status(500).json({ success: false, message: 'Submission failed.' });
     }
 };
+

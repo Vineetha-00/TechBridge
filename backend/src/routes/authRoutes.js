@@ -10,3 +10,4 @@ router.put('/profile', authenticate, authController.updateProfile);
 router.post('/verify', authenticate, authController.submitVerification);
 
 module.exports = router;
+

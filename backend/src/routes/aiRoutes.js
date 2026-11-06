@@ -8,3 +8,4 @@ router.post('/compare-advices', optionalAuth, aiController.compareSeniorAdvices)
 router.get('/presets', aiController.getComparisonPresets);
 
 module.exports = router;
+

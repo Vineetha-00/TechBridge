@@ -394,3 +394,4 @@ INSERT INTO project_teams (title, description, creator_id, open_roles, current_m
     ARRAY['Frontend React Engineer', 'DevOps / Docker Specialist'],
     2, 4, 'https://github.com/techbridge/ai-reviewer', 'recruiting'
 );
+

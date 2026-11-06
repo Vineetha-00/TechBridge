@@ -8,3 +8,4 @@ router.get('/:slug', optionalAuth, roadmapController.getRoadmapBySlug);
 router.post('/progress', authenticate, roadmapController.toggleMilestoneProgress);
 
 module.exports = router;
+

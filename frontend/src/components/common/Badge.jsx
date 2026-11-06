@@ -38,3 +38,4 @@ export const DifficultyBadge = ({ difficulty }) => {
     </span>
   );
 };
+

@@ -9,3 +9,4 @@ router.get('/dashboard-summary', authenticate, userController.getDashboardSummar
 router.get('/:id', optionalAuth, userController.getUserById);
 
 module.exports = router;
+

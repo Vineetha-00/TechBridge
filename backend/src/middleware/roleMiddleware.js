@@ -34,3 +34,4 @@ module.exports = {
     requireAdmin: requireRoles('admin'),
     requireSeniorOrPlaced: requireRoles('third_year', 'final_year', 'placed_graduate')
 };
+

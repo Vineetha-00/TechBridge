@@ -12,3 +12,4 @@ router.get('/sessions', mentorshipController.getSessions);
 router.post('/sessions', mentorshipController.scheduleSession);
 
 module.exports = router;
+

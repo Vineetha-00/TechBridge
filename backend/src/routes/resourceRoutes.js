@@ -7,3 +7,4 @@ router.get('/', optionalAuth, resourceController.getResources);
 router.post('/', authenticate, resourceController.createResource);
 
 module.exports = router;
+

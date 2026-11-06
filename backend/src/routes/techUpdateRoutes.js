@@ -8,3 +8,4 @@ router.get('/', optionalAuth, techUpdateController.getTechUpdates);
 router.post('/', authenticate, requireSeniorOrPlaced, techUpdateController.createTechUpdate);
 
 module.exports = router;
+

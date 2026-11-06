@@ -12,3 +12,4 @@ router.post('/:id/like', authenticate, discussionController.toggleLikeDiscussion
 router.post('/answers/:answerId/helpful', authenticate, discussionController.markHelpful);
 
 module.exports = router;
+

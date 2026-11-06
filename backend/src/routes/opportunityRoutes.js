@@ -10,3 +10,4 @@ router.get('/experiences', optionalAuth, opportunityController.getInterviewExper
 router.post('/experiences', authenticate, requireSeniorOrPlaced, opportunityController.createInterviewExperience);
 
 module.exports = router;
+

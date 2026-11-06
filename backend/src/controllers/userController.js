@@ -117,3 +117,4 @@ exports.getDashboardSummary = async (req, res) => {
         res.status(500).json({ success: false, message: 'Error generating dashboard summary.' });
     }
 };
+

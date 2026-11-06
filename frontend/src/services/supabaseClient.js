@@ -13,3 +13,4 @@ export const isSupabaseLive = Boolean(
 export const supabase = isSupabaseLive
   ? createClient(supabaseUrl, supabaseAnonKey)
   : null;
+

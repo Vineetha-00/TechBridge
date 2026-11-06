@@ -8,3 +8,4 @@ router.post('/teams', authenticate, projectController.createProjectTeam);
 router.post('/teams/:teamId/apply', authenticate, projectController.joinTeamRequest);
 
 module.exports = router;
+

@@ -299,3 +299,4 @@ export const ChatPage = () => {
     </div>
   );
 };
+

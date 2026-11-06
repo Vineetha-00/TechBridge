@@ -16,3 +16,4 @@ router.get('/reports', adminController.getReports);
 router.patch('/reports/:id/resolve', adminController.resolveReport);
 
 module.exports = router;
+

@@ -12,3 +12,4 @@ router.post('/conversations/:conversationId/messages', chatController.sendMessag
 router.post('/block', chatController.blockUser);
 
 module.exports = router;
+

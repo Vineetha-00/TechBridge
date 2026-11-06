@@ -528,3 +528,4 @@ CREATE TRIGGER update_answers_timestamp BEFORE UPDATE ON answers FOR EACH ROW EX
 CREATE TRIGGER update_conversations_timestamp BEFORE UPDATE ON conversations FOR EACH ROW EXECUTE FUNCTION update_timestamp();
 CREATE TRIGGER update_mentorship_requests_timestamp BEFORE UPDATE ON mentorship_requests FOR EACH ROW EXECUTE FUNCTION update_timestamp();
 CREATE TRIGGER update_project_teams_timestamp BEFORE UPDATE ON project_teams FOR EACH ROW EXECUTE FUNCTION update_timestamp();
+

@@ -315,3 +315,4 @@ exports.markHelpful = async (req, res) => {
         res.status(500).json({ success: false, message: 'Failed to update helpful status.' });
     }
 };
+
